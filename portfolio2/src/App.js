@@ -9,6 +9,9 @@ export default function App(props) {
   return (
     <div className="App">
       <Nav />
+      <div className="row">
+        <div className="overlay"></div>
+      </div>
       <div className="[ container-fluid ]">{props.children}</div>
     </div>
   );

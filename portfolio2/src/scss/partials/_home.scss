@@ -1,0 +1,19 @@
+.welcomeHeading {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(000, 000, 000, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.landingPage {
+    position: relative;
+}
