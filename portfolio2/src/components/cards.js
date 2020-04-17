@@ -1,20 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-const Cards = props => {
-  const { name, img, type, number, artist, id } = props;
+export default function Cards (props) {
+  const { title, img, focus, year, } = props;
   return (
-    <div className="[ col-sm-3 ] [ card ]">
-      <h3>Name: {name} </h3>
-      <img src={img} alt="just random" className="[ CardImg ]" />
-      <p>Type: {type} </p>
-      <p>Species: {number}</p>
-      <p>Artist: {artist}</p>
-      <Link to={`/CardSpecific/${id}`} className="btn btn-primary">
+    <div className="card">
+      <h3>Project: {title} </h3>
+      <img src={img} alt="project1" className="[ CardImg ]" />      
+      <p>Focus: {focus}</p>
+      <p>Year: {year}</p>
+      {/* <Link to={`/CardSpecific/${id}`} className="btn btn-primary">
         Read More
-      </Link>
+      </Link> */}
     </div>
   );
 };
-
-export default Cards;

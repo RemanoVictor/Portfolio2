@@ -1,24 +1,21 @@
-.about-content {
-    background-color: rgba(000, 000, 000, 1);
-
-    p {
-        font-size: 1.5em;
+.about {
+    .about__welcome {
+        text-align: center;
     }
-}
 
-.aboutWelcome {
-    text-align: center;
-}
+    .about__content {
+        img {
+            margin: 20px 0;
+        }
 
-.toggle {
-    width: 50%;
-    font-size: 1.5em;
-    background-color: rgb(59, 59, 214);
-    color: white;
-    margin: 2% 0;
-}
+        p {
+            font-size: 1.5em;
+        }
+    }
 
-.toggle:hover {
-    color: rgb(59, 59, 214);
-    background-color: white;
+
+
+    .about__description {
+        margin-top: 10px;
+    }
 }
