@@ -4,6 +4,7 @@ import "bootstrap3/dist/css/bootstrap.min.css";
 import "./scss/styles.scss";
 
 import Nav from "./components/nav";
+import Footer from "./components/footer";
 
 export default function App(props) {
   return (
@@ -13,6 +14,7 @@ export default function App(props) {
         <div className="overlay"></div>
       </div>
       <div className="[ container-fluid ]">{props.children}</div>
+      <Footer />
     </div>
   );
 }

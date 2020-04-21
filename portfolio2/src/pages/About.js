@@ -41,9 +41,7 @@ export default function About() {
 
           <div className="row">
             <div className="col-sm-3"></div>
-            <div className="col-sm-2">
-              <img src="" />
-            </div>
+            <div className="col-sm-2">{/* <img src="" /> */}</div>
             <div className="col-sm-2"></div>
             <div className="col-sm-2"></div>
             <div className="col-sm-3"></div>

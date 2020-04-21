@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Logo from "./../media/logo3.svg";
 
-const Nav = () => {
+export default function Nav() {
   return (
     <nav className="navbar navbar-inverse">
       <div className="container-fluid">
@@ -33,6 +33,4 @@ const Nav = () => {
       </div>
     </nav>
   );
-};
-
-export default Nav;
+}
