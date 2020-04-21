@@ -4,7 +4,7 @@ import Logo from "./../media/logo3.svg";
 import exam1 from "./../media/projectExam1.svg";
 import Cards from "./../components/cards";
 
-export default function MagicTheGathering() {
+export default function Portfolio2() {
   return (
     <div>
       <div className="container-fluid landingPage">
