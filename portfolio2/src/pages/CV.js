@@ -11,6 +11,7 @@ export default function Cv() {
 
       <div className="row">
         <h3>Name: Remano Victor</h3>
+        <h3>Hello </h3>
       </div>
     </div>
   );
