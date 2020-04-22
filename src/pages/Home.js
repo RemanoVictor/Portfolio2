@@ -1,8 +1,11 @@
 import React from "react";
 
 import Logo from "./../media/logo3.svg";
-import exam1 from "./../media/projectExam1.svg";
+import reactCA from "./../media/reactCA.svg";
+// import exam1 from "./../media/projectExam1.svg";
 import nicecream from "./../media/nicecream.svg";
+import ricknmorty from "./../media/reactma3.svg";
+import semesterproject1 from "./../media/semesterproject1.svg";
 import Cards from "./../components/cards";
 
 export default function Portfolio2() {
@@ -37,19 +40,19 @@ export default function Portfolio2() {
         <div className="row cardContainer">
           <div className="col-sm-6">
             <Cards
-              title={"project1"}
-              img={exam1}
+              title={"Semester Project 1"}
+              img={semesterproject1}
               focus={"HMTL&CSS"}
-              year={2016}
+              year={2018}
               link="http://remanovictor.com/Project_Exam1_RemanoVictor/index.html"
             />
           </div>
           <div className="col-sm-6">
             <Cards
-              title={"project2"}
+              title={"HTML&CSS MA"}
               img={nicecream}
               focus={"HMTL&CSS"}
-              year={2016}
+              year={2018}
               link="http://remanovictor.com/HTML%26CSS_MA4/HTML&CSS_MA4.html"
             />
           </div>
@@ -58,19 +61,20 @@ export default function Portfolio2() {
         <div className="row">
           <div className="col-sm-6">
             <Cards
-              title={"project3"}
-              img={"https:via.placeholder.com/150/"}
-              focus={"HMTL&CSS"}
-              year={2016}
-              link
+              title={"React MA"}
+              img={ricknmorty}
+              focus={"React"}
+              year={2019}
+              link="https://dreamy-perlman-efe9dd.netlify.app"
             />
           </div>
           <div className="col-sm-6">
             <Cards
-              title={"project4"}
-              img={"https:via.placeholder.com/150/"}
-              focus={"HMTL&CSS"}
+              title={"React hooks CA"}
+              img={reactCA}
+              focus={"React Hooks"}
               year={2016}
+              link="https://laughing-haibt-c14250.netlify.app/"
             />
           </div>
         </div>
