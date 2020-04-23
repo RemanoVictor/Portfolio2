@@ -2,10 +2,9 @@ import React from "react";
 
 import Logo from "./../media/logo3.svg";
 import reactCA from "./../media/reactCA.svg";
-// import exam1 from "./../media/projectExam1.svg";
+import exam1 from "./../media/projectExam1.svg";
 import nicecream from "./../media/nicecream.svg";
 import ricknmorty from "./../media/reactma3.svg";
-import semesterproject1 from "./../media/semesterproject1.svg";
 import Cards from "./../components/cards";
 
 export default function Portfolio2() {
@@ -40,20 +39,20 @@ export default function Portfolio2() {
         <div className="row cardContainer">
           <div className="col-sm-6">
             <Cards
-              title={"Semester Project 1"}
-              img={semesterproject1}
-              focus={"HMTL&CSS"}
-              year={2018}
-              link="http://remanovictor.com/Project_Exam1_RemanoVictor/index.html"
-            />
-          </div>
-          <div className="col-sm-6">
-            <Cards
-              title={"HTML&CSS MA"}
+              title={"HTML & CSS MA"}
               img={nicecream}
               focus={"HMTL&CSS"}
               year={2018}
               link="http://remanovictor.com/HTML%26CSS_MA4/HTML&CSS_MA4.html"
+            />
+          </div>
+          <div className="col-sm-6">
+            <Cards
+              title={"Javascript CA"}
+              img={exam1}
+              focus={"Javascript"}
+              year={2018}
+              link="https://gameofscones.netlify.app/index.html"
             />
           </div>
         </div>
