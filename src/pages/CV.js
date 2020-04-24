@@ -8,7 +8,7 @@ export default function Cv() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm-12 DetailsHeading">
+        <div className="col-sm-12 Heading">
           <h1> Personal Details </h1>
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function Cv() {
       </div>
 
       <div className="row">
-        <div className="col-sm-12 DetailsHeading">
+        <div className="col-sm-12 Heading">
           <h1> Experience </h1>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Cv() {
       </div>
 
       <div className="row">
-        <div className="col-sm-12 DetailsHeading">
+        <div className="col-sm-12 Heading">
           <h1> Education </h1>
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function Cards(props) {
   return (
     <div className="card">
       <h3>Project: {title} </h3>
-      <img src={img} />
+      <img src={img} alt="project preview" />
       <p>Focus: {focus}</p>
       <p>Year: {year}</p>
       <a

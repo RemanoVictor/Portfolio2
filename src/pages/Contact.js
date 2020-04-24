@@ -43,9 +43,10 @@ export default function Contact() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm-8">
-          <h1> Contact Form </h1>
-          <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
+          <div className="col-sm-8">
+            <h1> Contact Form </h1>
+
             <p>Enter your name</p>
             <input
               type="text"
@@ -97,8 +98,8 @@ export default function Contact() {
               }
               className="btn"
             />
-          </form>
-        </div>
+          </div>
+        </form>
         <div className="col-sm-4"></div>
       </div>
     </div>
