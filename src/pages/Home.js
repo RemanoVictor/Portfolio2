@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Logo from "./../media/logo3.svg";
 import reactCA from "./../media/reactCA.svg";
@@ -21,7 +22,9 @@ export default function Portfolio2() {
         <div className="row">
           <div className="col-sm-5"></div>
           <div className="col-sm-2 landingPage__button">
-            <button className="callToAction">Enquire</button>
+            <Link className="callToAction btn" to="/contact">
+              Enquire
+            </Link>
           </div>
           <div className="col-sm-5"></div>
         </div>
@@ -42,7 +45,9 @@ export default function Portfolio2() {
               title={"HTML & CSS MA"}
               img={nicecream}
               focus={"HMTL&CSS"}
-              year={2018}
+              description={
+                "The goal was to use HTML and CSS to create a website for an icecream parlour that had an online order page."
+              }
               link="http://remanovictor.com/HTML%26CSS_MA4/HTML&CSS_MA4.html"
             />
           </div>
@@ -51,7 +56,9 @@ export default function Portfolio2() {
               title={"Javascript CA"}
               img={exam1}
               focus={"Javascript"}
-              year={2018}
+              description={
+                "The goal was to use javascript to create a boardgame that consisted of traps as well as to manipulate data recieved from an API"
+              }
               link="https://gameofscones.netlify.app/index.html"
             />
           </div>
@@ -63,7 +70,9 @@ export default function Portfolio2() {
               title={"React MA"}
               img={ricknmorty}
               focus={"React"}
-              year={2019}
+              description={
+                "I needed to create a website that displayed cards containing information extracted from an API call. The website had to be built using react however and needed to have a page and a functional contact page."
+              }
               link="https://dreamy-perlman-efe9dd.netlify.app"
             />
           </div>
@@ -72,7 +81,9 @@ export default function Portfolio2() {
               title={"React hooks CA"}
               img={reactCA}
               focus={"React Hooks"}
-              year={2016}
+              description={
+                "I neeed to create a websited that displayed information extracted from an API. The site needed a functional contact page, Login and needed to be built using React hooks."
+              }
               link="https://laughing-haibt-c14250.netlify.app/"
             />
           </div>
