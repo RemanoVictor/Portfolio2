@@ -7,7 +7,7 @@ export default function Cards(props) {
       <h3>Project: {title} </h3>
       <img src={img} alt="project preview" />
       <p>Focus: {focus}</p>
-      <p>Desription: {description}</p>
+      <p>The Goal: {description}</p>
       <a
         href={link}
         className="btn btn-primary"

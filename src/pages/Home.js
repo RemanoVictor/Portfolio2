@@ -46,7 +46,7 @@ export default function Portfolio2() {
               img={nicecream}
               focus={"HMTL&CSS"}
               description={
-                "The goal was to use HTML and CSS to create a website for an icecream parlour that had an online order page."
+                "To use HTML and CSS to create a skeleton website for an icecream parlour that had an online order page."
               }
               link="http://remanovictor.com/HTML%26CSS_MA4/HTML&CSS_MA4.html"
             />
@@ -57,7 +57,7 @@ export default function Portfolio2() {
               img={exam1}
               focus={"Javascript"}
               description={
-                "The goal was to use javascript to create a boardgame that consisted of traps as well as to manipulate data recieved from an API"
+                " To use javascript to create a boardgame that consisted of traps as well as to manipulate data recieved from an API"
               }
               link="https://gameofscones.netlify.app/index.html"
             />
@@ -71,7 +71,7 @@ export default function Portfolio2() {
               img={ricknmorty}
               focus={"React"}
               description={
-                "I needed to create a website that displayed cards containing information extracted from an API call. The website had to be built using react however and needed to have a page and a functional contact page."
+                " To create a website that displayed cards containing information extracted from an API call. The website had to be built using react and needed to have a Login page as well as a functional contact page."
               }
               link="https://dreamy-perlman-efe9dd.netlify.app"
             />
@@ -82,7 +82,7 @@ export default function Portfolio2() {
               img={reactCA}
               focus={"React Hooks"}
               description={
-                "I neeed to create a websited that displayed information extracted from an API. The site needed a functional contact page, Login and needed to be built using React hooks."
+                "To create a website that displayed information extracted from an API. The site needed to be built using React Hooks. It needed a Login Page as well as a card specific page displaying additional information."
               }
               link="https://laughing-haibt-c14250.netlify.app/"
             />
